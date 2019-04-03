@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>The HacktivGit!</title>
+</head>
+
+<body style="background-color: #eeeeee">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+        <a class="navbar-brand" href="#">HacktivGit</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#" style="float:right"> <span
+                        class="sr-only">(current)</span></a>
+                <div id="username" style="color: white;margin-left: 850px;">martinsuhendra</div>
+            </div>
+        </div>
+    </nav>
+    <!-- Main Content -->
+
+    <div class="container" style="padding-top: 30px;">
+        <div class="row">
+            <div class="col-sm">
+                <div class="user" id="my-name" style="margin-left: -80px">
+                </div>
+            </div>
+            <div class="col-sm-" style="margin-right:50px">
+                <div class="repositories" id="my-starred">
+                    <!-- starred repositories -->
+                    <h5 style="text-align:center">starred repositories :</h5>
+                    <hr>
+                    <div class="input-group mb-3" id="seach-box">
+                        <input type="text" class="form-control" placeholder="search username..."
+                            aria-label="Recipient's username" aria-describedby="button-addon2" id="input-search">
+                        <div class="input-group-append">
+                            <button class="btn btn-dark" type="button" id="search-button">search</button>
+                        </div>
+                    </div>
+                    <div class="list-users" id='users-details'></div>
+                    <div class="list-users" id='search-user-result'></div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="repositories" id="personal-repo" ">
+
+                    <!-- personal repositories -->
+                    <h5 style="text-align:center">my repositories :</h5>
+                    <hr>
+                    <div class="col">
+
+                        <div class="input-group mb-3" id="create-box">
+                            <input type="text" class="form-control" placeholder="create repository..."
+                                aria-label="Recipient's username" aria-describedby="button-addon2" id="create-input">
+                            <div class="input-group-append">
+                                <button class="btn btn-dark" type="button" id="create-button">create</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src=" https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
